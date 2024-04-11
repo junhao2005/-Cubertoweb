@@ -60,21 +60,9 @@
     color: white;
 }
 
-@media only screen and (max-width: 600px) {
-    /* Aquí pots posar els estils que vols aplicar per a dispositius mòbils */
-    body {
-        font-size: 14px;
-        width: 100%;
-        display:flex;
+@media screen and (max-width:600px) {
+    .row, .col2, .col2-1, .col2-2 {
+        display: block;
     }
-    /* Altres estils per a mòbil */
 }
-
-/* Estils per a dispositius d'escriptori amb una mida de pantalla mínima de 601px */
-@media only screen and (min-width: 601px) {
-    /* Aquí pots posar els estils que vols aplicar per a dispositius d'escriptori */
-    body {
-        font-size: 16px;
-    }
-    /* Altres estils per a escriptori */
-}
+    
