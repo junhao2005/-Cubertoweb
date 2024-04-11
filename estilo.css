@@ -63,6 +63,8 @@
 @media screen and (max-width:600px) {
     .row, .col2, .col2-1, .col2-2 {
         display: block;
+        text-align: center;
+        justify-content: center;
     }
 }
     
